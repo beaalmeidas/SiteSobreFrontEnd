@@ -72,12 +72,13 @@ a:hover {
 
 .container-github{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 #container-logo-github img {
-    max-width: 8%;
+    max-width: 30px;
     height: auto;
+    padding: 15px;
 }
 
 
