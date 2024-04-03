@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index-style.css">
+
+    <title>HTML - Ap. para Internet</title>
+</head>
+<body>
+    
+    <div class="header">
+        <header>
+            <h1>HTML <sup> Linguagem de Marcação de Hipertexto</sup> </h1>
+        </header>
+    </div>
+
+
+    <div class="botoes-navegacao">
+        <button class="tablinks" onclick="document.getElementById('introducao-titulo').scrollIntoView();">INTRODUÇÃO</button>
+        <button class="tablinks" onclick="document.getElementById('web-titulo').scrollIntoView();">WEB E FRONT-END</button>
+        <button class="tablinks" onclick="document.getElementById('tags-titulo').scrollIntoView();">COMANDOS</button>
+        <button class="tablinks" onclick="document.getElementById('formulario-titulo').scrollIntoView();">FORMULÁRIOS</button>
+    </div>
+    
+    
+    <div id="sobre" class="sobre">
+        <div id="sobre-titulo" class="secao-titulo">
+            <h2>Tutoriais para iniciantes</h2>
+        </div>
+
+        <img src="img\html_code_image.jpeg" alt="HTML code" width="200px" align="left" border="10px #000000" style="border-color: white;">
+        
+        <div id="sobre-texto" class="sobre-texto">
+            <p> <u><b>HTML</b></u> <i>(Linguagem de Marcação de Hipertexto)</i> é o bloco de construção mais básico da web. <mark>Define o significado e a estrutura do conteúdo da web.</mark> <br>Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento <i>(JavaScript)</i> de uma página da web.</p>
+        </div>
+    </div>
+
+
+    <br><br>
+
+
+    <div id="introducao-titulo" class="secao-titulo">
+        <br>
+        <h2>Introdução</h2>
+    </div>
+
+
+    <div id="sobre-tecnologias-artigo" class="sobre-tecnologias-artigo">
+        <div id="sobre-html" class="sobre-html">
+            <h2>O que é HTML?</h2>
+            <p><br>HTML é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</p>
+        </div>
+
+        <div id="sobre-css" class="sobre-css">
+            <h2>O que é CSS?</h2>
+            <p><br>Cascading Style Sheets (CSS) é usado para formatar o layout de uma página da web. Com CSS, você pode controlar a cor, a fonte, o tamanho do texto, o espaçamento entre os elementos, como os elementos são posicionados e dispostos, quais imagens de fundo ou cores de fundo devem ser usadas, exibições diferentes para dispositivos e tamanhos de tela diferentes e muito mais.</p>
+        </div>
+
+        <div id="sobre-javascript" class="sobre-javascript">
+            <h2>O que é JavaScript?</h2>
+            <p><br>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, O JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+        </div>
+    </div>
+
+
+
+    <br><br>
+
+
+
+    <div id="web-titulo" class="secao-titulo">
+        <br>
+        <h2>Web e Front-end</h2>
+    </div>
+
+
+    <div id="sobre-a-web" class="sobre-a-web">
+        <div id="ecossistema-web" class="ecossistema-web">
+            <p>
+                A web, abreviação de World Wide Web, é um sistema de informação global que permite o acesso e a compartilhamento de documentos e recursos por meio da internet. Ela consiste em uma vasta rede de servidores interconectados que hospedam páginas da web, conteúdo multimídia, aplicativos e outros recursos acessíveis através de navegadores da web. A web utiliza protocolos padrão, como HTTP e HTTPS, para transferir dados entre os clientes (como navegadores) e os servidores, proporcionando uma experiência de navegação e interação na internet.
+                <br>
+            </p>
+            <br><br>
+            <h2>Frameworks e Bibliotecas HTML/CSS</h2>
+            <p>
+                > Bootstrap <br>
+                > TailwindCSS <br>
+                > Bulma <br>
+                <br>
+            </p>
+            <br>
+            <h2>Frameworks e Bibliotecas JavaScript</h2>
+            <p>
+                > React <br>
+                > Angular <br>
+                > Vue <br>
+                > Svelte <br>
+                > JQuery <br>
+                <br>
+            </p>
+        </div>
+
+
+        <div id="protocolos-lista" class="protocolos-lista">
+            <section class="list">
+                <h2>Protocolos Importantes</h2>
+                <br>
+                <article>
+                    <ol>
+                        <b><li>HTTP - Hypertext Transfer Protocol</li></b>
+                        <p>É o protocolo principal da web responsável pela busca de dados solicitados pelo usuário em um servidor. O HTTPS (Hypertext Transfer Protocol Secure) é uma versão segura do HTTP que utiliza criptografia para proteger a comunicação entre o cliente e o servidor, garantindo a segurança e a privacidade dos dados transmitidos.</p>
+                        <br>
+
+                        <b><li>TCP/IP - Transmission Control Protocol/Internet Protocol</li></b>
+                        <p>O TCP/IP é o conjunto de protocolos que permite a comunicação entre dispositivos em redes de computadores, incluindo a Internet. Ele define como os dados são transmitidos e roteados entre dispositivos em uma rede, garantindo uma conexão confiável e estável.</p>
+                        <br>
+
+                        <b><li>DHCP - Dynamic Host Configuration Protocol</li></b>
+                        <p>O DHCP é um protocolo utilizado para atribuir endereços IP e outras configurações de rede automaticamente a dispositivos em uma rede local. Permite que dispositivos obtenham informações de configuração automaticamente ao se conectar à rede.</p>
+                        <br>
+
+                        <b><li>FTP - File Transfer Protocol</li></b>
+                        <p>O FTP é um protocolo utilizado para transferir arquivos entre um cliente e um servidor em uma rede. Ele permite o upload e o download de arquivos de e para servidores remotos, sendo amplamente utilizado para transferência de arquivos em sites e servidores web.</p>
+                        <br>
+
+                        <b><li>SMTP - Simple Mail Transfer Protocol</li></b>
+                        <p>O SMTP é o protocolo padrão para envio de e-mails pela Internet. Ele é utilizado para enviar mensagens de e-mail de um servidor de e-mail para outro. O SMTP define como os servidores de e-mail comunicam entre si para entregar mensagens aos destinatários corretos.</p>
+                    </ol>
+                </article>
+            </section>
+        </div>
+    </div>
+
+
+
+    <div id="tags-titulo" class="secao-titulo">
+        <br>
+        <h2>Comandos</h2>
+    </div>
+    <div id="tags-e-comandos" class="tags-e-comandos">
+        <div id="tabela" class="tabela">
+            <table border="1">
+                <caption><b>PRINCIPAIS TAGS DO HTML</b></caption>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Utilidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Define um documento HTML</td>
+                    </tr>
+                    <tr>
+                        <td>HEAD</td>
+                        <td>Define a área de configuração de um documento HTML</td>
+                    </tr>
+                    <tr>
+                        <td>BODY</td>
+                        <td>Define a área de conteúdo de um documento HTML</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>Tag de link (ancoragem) em elementos dentro de um doc HTML</td>
+                    </tr>
+                    <tr>
+                        <td>IMG</td>
+                        <td>Define uma imagem dentro de um doc HTML</td>
+                    </tr>
+                    <tr>
+                        <td>DIV</td>
+                        <td>Elemento que divide e organiza conteúdos dentro de um doc HTML</td>
+                    </tr>
+                    <tr>
+                        <td>FORM</td>
+                        <td>Define as regras de funcionamento de um formulário HTML</td>
+                    </tr>
+                    <tr>
+                        <td>HR</td>
+                        <td>Insere uma linha horizontal em um doc HTML</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <br><br>
+    
+
+    
+        <div id="comandos-importantes" class="comandos-importantes">
+            <br>
+            <h2>OUTROS COMANDOS IMPORTANTES</h2>
+            <br>
+            <ul>
+                <li><b>!DOCTYPE:</b> Define o tipo de documento e a versão do HTML sendo usado.</li>
+                <br>
+                <h3>Texto e Artigos</h3>
+                <li><b>h1 a h6:</b> Títulos de diferentes tamanhos, onde h1 é o maior e h6 é o menor.</li>
+                <li><b>p:</b> Define um parágrafo no documento HTML.</li>
+                <br>
+                <h3>Listas</h3>
+                <li><b>ul e ol:</b> Define listas não ordenadas e ordenadas, respectivamente.</li>
+                <li><b>li:</b> Representa um item de lista dentro de ul ou ol.</li>
+                <br>
+                <h3>Tabelas</h3>
+                <li><b>table:</b> Define uma tabela para organizar dados.</li>
+                <li><b>tr:</b>  Define uma linha dentro de uma tabela.</li>
+                <li><b>td:</b> Define uma célula dentro de uma linha de tabela.</li>
+                <li><b>th:</b> Define uma célula de cabeçalho dentro de uma linha de tabela.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    
+    <div id="formulario-titulo" class="secao-titulo">
+        <br>
+        <h2>Formulários</h2>
+    </div>
+
+    <div id="explicacao-formularios" class="explicacao-formularios">
+
+        <div id="inputs-formulario" class="inputs-formulario">
+            <h1>Tipos de Input</h1>
+            <br>
+            <div id="tipos-input-formularios" class="tipos-input-formularios">
+                button <br>
+                text <br>
+                date <br>
+                email <br>
+                checkbox <br>
+                password <br>
+                color <br>
+                datetime-local <br>
+                file <br>
+                hidden <br>
+                image <br>
+                month <br>
+                number <br>
+                radio <br>
+                range <br>
+                reset <br>
+                search <br>
+                submit <br>
+                tel <br>
+                time <br>
+                url <br>
+                week <br>
+            </div>
+        </div>
+
+
+        <div id="formulario" class="formulario">
+
+            <h1>Exemplo</h1>
+            <br>
+    
+            <form action="obrigado.html" method="get">
+
+                <div id="separate-form-fields" class="separate-form-fields">
+                    <div id="form-fields-1" class="form-fields-1">
+                        <label for="nome"><h2>Nome</h2></label>
+                        <input type="text" id="nome" name="nome" required><br><br>
+            
+                        <label for="emailadress"><h2>Email</h2></label>
+                        <input type="email" id="emailadress" name="emailadress" required><br><br>
+            
+                        <label for="idade"><h2>Idade</h2></label>
+                        <input type="number" id="idade" name="idade" required><br><br>
+            
+                        <label for="assunto"><h2>Assunto</h2></label>
+                        <select name="assunto" id="assunto" required>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="sugestao" selected>Sugestão</option>
+                            <option value="elogio">Elogio</option>
+                        </select>
+                    </div>
+    
+                    <div id="form-fields-2" class="form-fields-2">
+                        <label for="mensagem"><h2>Mensagem</h2></label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                        <br><br>
+            
+                        <input type="checkbox" value="termoscheckbox" required>
+                        <label for="checkbox">Concordo com os temos e condições</label>
+                        <br><br>
+            
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        <br><br>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <div id="footer" class="footer">
+        <footer>
+            Aplicações Para Internet, 2024.1
+        </footer>
+    </div>
+
+</body>
+</html>

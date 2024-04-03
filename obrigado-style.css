@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #311f5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-right: 20px;
+}
+.container-principal > div {
+    flex: 1;
+    text-align: justify;
+}
+
+
+
+.container-mensagem {
+    flex: 2;
+    background-color: #050b42;
+    color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+}
+
+
+
+#container-imagem-principal img {
+    max-width: 95%;
+    height: auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+
+
+h1 {
+    margin-top: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+    color: #dddddd;
+}
+
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.container-github{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#container-logo-github img {
+    max-width: 8%;
+    height: auto;
+}
+
+
+
+.container-link-github {
+    font-size: 16px;
+}
